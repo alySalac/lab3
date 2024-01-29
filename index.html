@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Devops</title>
+  <title>Bootstrap 5 Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -9,85 +9,118 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg bg-warning">
-		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">HOME</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="login.html">LOGIN</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				  ITEMS
-				</a>
-				<ul class="dropdown-menu">
-				  <li><a class="dropdown-item" href="listofitems.html">listofitems</a></li>
-				  <li><a class="dropdown-item" href="#">Another action</a></li>
-				  <li><hr class="dropdown-divider"></li>
-				  <li><a class="dropdown-item" href="#">Something else here</a></li>
-				</ul>
-			  </li>
-			</ul>
-		  </div>
-		</div>
-	  </nav>
+  <style>
+    .modal-header, h4, .close {
+      background-color: rgb(52, 71, 241);
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+    }
+    .modal-footer {
+      background-color: #f9f9f9;
+    }
+    </style>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Login
+        </button>
+          
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </nav>
+  
 
 <div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>SIR RONNIE</h1>
-  <p>POGI!!!</p> 
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
 </div>
   
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-            <div class="container-fluid">
-              <h3><a class="navbar-brand" href="patakla.html">Alyxsis Salac</a></h3>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-            <p class="info">
-                <h5>Career Objective:</h5>
-                A highly organized and hard-working individual looking for a responsible position to gain practical experience.
-                
-            </p>
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
     <div class="col-sm-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-            <div class="container-fluid">
-              <h3><a class="navbar-brand" href="patakla.html">Charmaine Cacho</a></h3>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-            <p class="info">
-                <h5>Career Objective:</h5>
-                Seeking an entry-level position to begin my career in a high-level professional environment.
-            </p>
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-      
     <div class="col-sm-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-            <div class="container-fluid">
-              <h3><a class="navbar-brand" href="patakla.html">Avigael Changcoco</a></h3>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            </nav>
-            <p class="info">
-            <h5>Career Objective:</h5>
-                Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.
-            </p>
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
   </div>
+</div>
+
 </body>
 </html>
