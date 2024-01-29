@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <?php
+
+  include "php/dbcon.php";
+
+  
+if (isset($_POST ['login'])){
+  $sql = "SELECT username, password FROM tb_userdata WHERE username = '$_POST[username]' AND password = '$_POST[password]'";
+$result = $conn->query($sql);
+  if (isset($username) && isset ($password)){
+    if ($result->num_rows > 0) {
+      // output data of each row
+      header("Location: listofitems.html");
+    } else {
+      
+    }
+  }
+}
+
+
+
+  ?> 
+
 <head>
   <title>Bootstrap 5 Example</title>
   <meta charset="utf-8">
@@ -54,19 +76,19 @@
           <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
+          <form role="form" method="POST" >
             <div class="form-group">
               <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              <input type="text" name = "username" class="form-control" id="usrname" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+              <input type="text" name = "password" class="form-control" id="psw" placeholder="Enter password">
             </div>
             <div class="checkbox">
               <label><input type="checkbox" value="" checked>Remember me</label>
             </div>
-              <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+              <button type="submit" name = "login" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
           </form>
         </div>
         <div class="modal-footer">
