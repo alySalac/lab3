@@ -39,7 +39,7 @@ include "config.php";
 <div class="container">
   <div class="navbar">
     <div class="logo">
-      <a href="index.html"><img src="https://img.freepik.com/free-vector/flat-design-clothing-logo-template_23-2149489910.jpg?w=740&t=st=1707317236~exp=1707317836~hmac=e1a682042d2e938831c578024cc4aadaf3221e941daf8afda4ab1383ef4319df" alt="RedStore" width="125px" /></a>
+      <a href="index.html"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-shopping-logo%2Cecommerce-logo%2Cshopify-design-template-6e30b0d4ebadd7f0b368d600c50d9ada_screen.jpg?ts=1677668442" alt="Shop Online" width="125px" /></a>
     </div>
     <nav>
       <ul id="MenuItems">
