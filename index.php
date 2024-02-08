@@ -143,7 +143,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/0cMfpcr/product-4.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/bf/5c/41/bf5c417a3ad71fbf8df5133d97f9b4f6.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -158,7 +158,7 @@ include "config.php";
 
   <div class="row">
     <div class="col-4">
-      <img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/49/83/19/498319a739482268d7d205d885049151.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -171,7 +171,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/b7ZVzYr/product-2.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/09/78/5f/09785f013a96d519b9f962ecd447a61c.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -184,7 +184,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/KsMVr26/product-3.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/a1/4a/26/a14a265c9e9a59fb944f615062314f6e.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -197,7 +197,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/0cMfpcr/product-4.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/d2/18/95/d21895bf90bce40c84f53c239d489bd6.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -212,7 +212,7 @@ include "config.php";
 
   <div class="row">
     <div class="col-4">
-      <img src="https://i.ibb.co/bQ5t8bR/product-5.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/65/39/31/653931d9688cf7a844ea640647fd4f16.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -225,7 +225,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/vVpTyBD/product-6.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/e7/c6/7a/e7c67a39ae5c5709963bc2fa24abfd57.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -238,7 +238,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/hR5FGwH/product-7.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/50/21/42/5021427cf8bf52a7b9d92c3ecff6c6fe.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -251,7 +251,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/QfCgdXZ/product-8.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/f6/7a/af/f67aaf6d42f1c4de63887e55d91a5894.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -266,7 +266,7 @@ include "config.php";
 
   <div class="row">
     <div class="col-4">
-      <img src="https://i.ibb.co/nw5xZwk/product-9.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/11/f0/ff/11f0ff6689c2460c4ed819d74814f57a.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -279,7 +279,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/9HCsmjf/product-10.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/b8/65/ed/b865ed814f883b418179015f78fc34fc.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -292,7 +292,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/JQ2MBHR/product-11.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/2a/ca/12/2aca12fc6a699f282872504d00a71e5d.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -305,7 +305,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/nRZMs6Y/product-12.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/75/ae/48/75ae4864278681a1fe34cc74bd32d165.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -343,8 +343,7 @@ include "config.php";
       <div class="footer-col-2">
         <img src="https://i.ibb.co/j3FNGj7/logo-white.png" alt="" />
         <p>
-          Our Purpose Is To Sustainably Make the Pleasure and Benefits of
-          Sports Accessible to the Many.
+          
         </p>
       </div>
 
