@@ -44,7 +44,7 @@ include "config.php";
     <nav>
       <ul id="MenuItems">
         <li><a href="index.html">Home</a></li>
-        <li><a href="product.html">Products</a></li>
+        <li><a href="#S">Products</a></li>
         <li><a href="#">About</a></li>
        
         <li><a href="account.html">Account</a></li>
