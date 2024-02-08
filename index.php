@@ -104,7 +104,7 @@ include "config.php";
   </div>
   <div class="row">
     <div class="col-4">
-      <img src="https://down-ph.img.susercontent.com/file/sg-11134201-22110-k5mqzwvv1gjv47" alt="" />
+      <img src="https://i.pinimg.com/736x/0a/f8/aa/0af8aa0bcfa5fbfd9afbf38d0ffd3de9.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -117,7 +117,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://down-ph.img.susercontent.com/file/16393e1842c613f2b9b852e70feb954a" alt="" />
+      <img src="https://i.pinimg.com/236x/e9/72/46/e9724672ac6bfcbcda8ffc9fb19cd145.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
@@ -130,7 +130,7 @@ include "config.php";
     </div>
 
     <div class="col-4">
-      <img src="https://i.ibb.co/KsMVr26/product-3.jpg" alt="" />
+      <img src="https://i.pinimg.com/236x/2e/72/ea/2e72ea5a00f5f4e856230ee55d91e3b2.jpg" alt="" />
       <h4>PRODUCT NAME</h4>
       <div class="rating">
         <i class="fas fa-star"></i>
