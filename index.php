@@ -8,6 +8,7 @@ include "config.php";
 
   $result = $conn->query($sql);
 
+  
   if (isset($username) && isset ($password)){
     if ($result == TRUE) {
       echo "New record created successflly";
